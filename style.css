@@ -115,3 +115,66 @@ h6{
     color: rgb(22, 22, 100);
     background-color: #fff;
 }
+
+/* feature */
+#features{
+    max-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+.feature{
+    margin: 40px;
+}
+.feature h3{
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: rgb(16, 16, 40);
+}
+.feature p{
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font: 1em sans-serif;
+}
+
+#features .cards{
+    /* height: 400px; */
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    /* align-items: center; */
+    margin: auto;
+    flex-wrap: wrap;
+}
+#features .cards .card{
+    /* border: 2px solid black; */
+    /* margin-left: 20px; */
+    height: 200px;
+    max-width: 320px;
+    margin: 20px;
+    padding: 20px;
+    background: #f8f5f5;
+    border-radius: 10px;
+}
+#features .cards .card i{
+    font-size: 2.5rem;
+}
+#features .cards .card h4{
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #22212d;
+}
+#features .cards .card p{
+    font-size: bold;
+    margin-top: 4px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
