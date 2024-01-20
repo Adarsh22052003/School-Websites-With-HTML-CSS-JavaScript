@@ -32,6 +32,7 @@ h6{
     width: 100%;
 }
 .container .left img{
+
     height: 70px;
     padding-top: 5px;
     padding-left: 30px;
@@ -177,4 +178,92 @@ h6{
     margin-top: 4px;
     font-weight: 500;
     letter-spacing: 1px;
+}
+/* Course section */
+#courses{
+    /* border: 30px solid black;   */
+    /* border: 2px solid black; */
+    max-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#courses h1{
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: rgb(16, 16, 40);
+    margin-top: 20px;
+}
+
+#courses p{
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font: 1em sans-serif;
+    margin-bottom: 20px;
+}
+#courses .courses{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+#courses .courses .course{
+    margin: 15px;
+}
+#courses .course img{
+    width: 320px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom: 0;
+}
+#courses .course .details{
+    margin-top: 0;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    background: #f8f5f5;
+    padding-left: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* border: 2px solid black; */
+}
+#courses .course .details span{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+#courses .course .details h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #292c30;
+    margin-bottom: 10px;
+}
+#courses .course .details .star i{
+    color: rgba(235, 235, 12, 0.773);
+}
+#courses .price{
+    /* height: 50px; */
+    color: white;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 600;
+    position: relative;
+    left: 62%;
+    top: -150px;
 }
