@@ -30,6 +30,7 @@ h6{
     position: fixed;
     background-color: #fff;
     width: 100%;
+    z-index: 1;
 }
 .container .left img{
 
@@ -183,7 +184,7 @@ h6{
 #courses{
     /* border: 30px solid black;   */
     /* border: 2px solid black; */
-    max-height: 100vh;
+    /* max-height: 200vh; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -228,6 +229,7 @@ h6{
 #courses .course .details{
     margin-top: 0;
     padding-top: 20px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     text-align: start;
@@ -252,9 +254,9 @@ h6{
     color: rgba(235, 235, 12, 0.773);
 }
 #courses .price{
-    /* height: 50px; */
+    height: 80px;
     color: white;
-    width: 100px;
+    width: 80px;
     background-color: blue;
     border-radius: 50%;
     text-align: center;
@@ -264,6 +266,114 @@ h6{
     font-size: large;
     font-weight: 600;
     position: relative;
-    left: 62%;
-    top: -150px;
+    left: 190px;
+    z-index: 0;
+    bottom: 140px;
+    
+}
+/* registration */
+#registration{
+    /* border: 2px solid black; */
+    padding: 6vw 8vw 6vw 8vw;
+    color: white;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    /* flex-wrap: wrap; */
+    background-image:  linear-gradient(rgba(99,112,168,0.5), rgba(81,91,223,0.5)),url("./images/signup.jpg");
+}
+
+#registration .left {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 60% ;
+    height: 60%;
+    /* flex-wrap: wrap; */
+    padding: 10px;
+}
+#registration .left P{
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+#registration .left h1{
+    color: #fff;
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+#registration .left .reg-btn{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+    justify-content: space-evenly;
+    /* border: 2px solid gray; */
+    margin-top: 10px;
+    
+}
+
+#registration .left .reg-btn .btn{
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(245, 245, 245, 0.433);
+}
+#registration .right{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* border: 2px solid black; */
+    height: 90%;
+    color: black;
+    width: 30%;
+    border-radius: 15px;
+    background-color: #ffffffc2;
+}
+#registration .right h2{
+    margin-top: 50px;
+    margin: 25px;
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#registration .right input{
+    height: 50px;
+    width: 260px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+#registration .right button{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-left: 0px;
+    color: white;
+    transition: 0.5s;
+    font-size: 0.9rem;
+}
+#registration .right button:hover{
+    background-color: yellow;
+    color: black;
 }
