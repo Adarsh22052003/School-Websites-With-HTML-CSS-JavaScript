@@ -377,3 +377,84 @@ h6{
     background-color: yellow;
     color: black;
 }
+/* profile section */
+#experts{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#experts h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #22212d;
+    /* margin-top: 10px; */
+}
+#experts p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 2px;
+    margin-bottom: 60px;
+}
+#experts .profiles{
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid black; */
+    justify-content: space-evenly;
+    margin-top: 10px 0;
+    padding: 20px 0;
+    /* background: #d0c4c4; */
+    flex-wrap: wrap;
+}
+#experts .profiles .profile{
+    display: flex;
+    flex-direction: column;
+    background: #ebe3e3;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+}
+#experts .profiles .profile img{
+    padding: 20px;
+}
+#experts .profiles .profile h6{
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#experts .profiles .profile p{
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#experts .profiles .profile .pro-links{
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#experts .profiles .profile .pro-links i{
+  border: 1px solid rgb(33, 29, 29);
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background: rgba(237, 36, 36, 0.389);
+}
