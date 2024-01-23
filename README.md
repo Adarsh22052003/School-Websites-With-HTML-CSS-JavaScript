@@ -6,3 +6,4 @@ This website is Multi Page Website. We will create Home Page, About Page, Blog P
 # Courses Section
 # regitration form
 # Profile section
+# footer section 
