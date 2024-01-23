@@ -281,7 +281,7 @@ h6{
     align-items: center;
     justify-content: space-between;
     height: 90vh;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     background-image:  linear-gradient(rgba(99,112,168,0.5), rgba(81,91,223,0.5)),url("./images/signup.jpg");
 }
 
@@ -315,6 +315,7 @@ h6{
     justify-content: space-evenly;
     /* border: 2px solid gray; */
     margin-top: 10px;
+    /* padding-bottom: 10px; */
     
 }
 
@@ -448,13 +449,18 @@ h6{
     text-align: center;
 }
 #experts .profiles .profile .pro-links i{
-  border: 1px solid rgb(33, 29, 29);
-  border-radius: 10px;
-  height: 50px;
-  width: 50px;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  background: rgba(237, 36, 36, 0.389);
+    border: 1px solid rgb(33, 29, 29);
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: rgba(237, 36, 36, 0.389);
+    transition: 0.5s;
+}
+#experts .profiles .profile .pro-links i:hover{
+    background-color: blue;
+    color: white;
 }
